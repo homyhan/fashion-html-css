@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fashion</title>
+
+    <!-- FA 6  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav class="intro">
+      <div class="content">
+        <div class="left">
+          <p>
+            <i class="fa fa-map-marker-alt"></i> 152 Nguyen Van Thuong - Binh
+            Thanh - HCM
+          </p>
+        </div>
+        <div class="right">
+          <li>
+            <a href="" title="facebook"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="" title="twitter"><i class="fab fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="" title="phone"><i class="fa fa-phone"></i></a>
+          </li>
+        </div>
+      </div>
+    </nav>
+    <nav class="nav">
+      <div class="content">
+        <h1><a href="./index.html">Fashion</a></h1>
+        <div class="menu">
+          <ul>
+            <li><a href="" class="menu_item">Home</a></li>
+            <li><a href="" class="menu_item">Product</a></li>
+            <li><a href="" class="menu_item">About</a></li>
+            <li><a href="" class="menu_item">Contact</a></li>
+            <li><a href="" class="menu_item">Blog</a></li>
+            <li><span></span></li>
+            <li>
+              <a href="" title="cart"><i class="fa fa-shopping-cart"></i></a>
+            </li>
+            <div class="menuhover_item">
+              <a href="" title="user"><i class="fa fa-user"></i></a>
+              <div class="layernoidung">
+                <ul>
+                  <li><p id="btnSignin">Signin</p></li>
+                  <li><p id="btnSignup">Signup</p></li>
+                </ul>
+              </div>
+            </div>
+          </ul>
+        </div>
+        <div class="btnBar">
+          <i class="fa fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- BANNER  -->
+    <section class="banner">
+      <div class="content">
+        <video
+          id="video_background"
+          preload="auto"
+          autoplay="true"
+          loop="loop"
+          muted
+          volume="0"
+        >
+          <source src="/images/video.mp4" type="video/mp4" />
+        </video>
+        <div class="banner-content">
+          <h2>Welcome in our Fashion</h2>
+          <p>
+            Customers don't just want to shop: they want to feel that the brand
+            understands them.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- BG BLACK  -->
+    <div class="background_black" id=""></div>
+    <!-- MODAL SIGNIN  -->
+    <section class="modal signin">
+      <div class="content">
+        <div class="btnClose">
+          <button class="" id="btnCloseSignin">
+            <i class="fa fa-times"></i>
+          </button>
+        </div>
+
+        <form action="">
+          <div class="item">
+            <span>Email</span>
+            <input type="email" placeholder="Enter your email" required />
+          </div>
+          <div class="item">
+            <span>Password</span>
+            <input type="password" placeholder="Enter your password" required />
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+    <!-- MODAL SIGNUP  -->
+    <section class="modal signup">
+      <div class="content">
+        <div class="btnClose">
+          <button class="" id="btnCloseSignup">
+            <i class="fa fa-times"></i>
+          </button>
+        </div>
+
+        <form action="">
+          <div class="item">
+            <span>Fullname</span>
+            <input type="text" placeholder="Enter your fullname" required />
+          </div>
+          <div class="item">
+            <span>Phone</span>
+            <input type="number" placeholder="Enter your phone" required />
+          </div>
+          <div class="item">
+            <span>Email</span>
+            <input type="email" placeholder="Enter your email" required />
+          </div>
+          <div class="item">
+            <span>Address</span>
+            <input type="text" placeholder="Enter your address" required />
+          </div>
+          <div class="item">
+            <span>Password</span>
+            <input type="password" placeholder="Enter your password" required />
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section class="news">
+      <div class="content">
+        <h1>NEWS</h1>
+        <p>NEWS PRODUCT</p>
+        <div class="row">         
+          <div class="item mr-2">
+            <div class="trang"></div>
+            <div class="info">Áo Sơ Mi Vải Cotton Họa Tiết The Day's Eye</div>
+            <div class="bg_img"></div>
+          </div>
+          <div class="item mr-2">
+            <div class="trang"></div>
+            <div class="info">Áo Sơ Mi Vải Cotton Họa Tiết The Day's Eye</div>
+            <div class="bg_img bg_img2"></div>
+          </div>
+          <div class="item mr-2">
+            <div class="trang"></div>
+            <div class="info">Áo Sơ Mi Vải Cotton Họa Tiết The Day's Eye</div>
+            <div class="bg_img bg_img3"></div>
+          </div>
+          <div class="item mr-2">
+            <div class="trang"></div>
+            <div class="info">Áo Sơ Mi Vải Cotton Họa Tiết The Day's Eye</div>
+            <div class="bg_img bg_img4"></div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+
+    <!-- PRODUCTS  -->
+    <section class="products">
+      <div class="content">
+        <h1>PRODUCTS</h1>
+        <p>BEST FROM THE BEST!</p>
+        <div class="row">
+          <div class="item">
+            <div class="itemSmall">
+              <img src="./images/ao_thun_trang.jpg" alt="" />
+              <img
+                class="img_back"
+                src="./images/ao_thun_trang_back.jpg"
+                alt=""
+              />
+            </div>
+            <p>
+              <span>230.000vnd</span>
+              <button>Add to cart</button>
+            </p>
+          </div>
+
+          <div class="item">
+            <div class="itemSmall">
+              <img src="./images/ao_thun_co_lo_den.jpg" alt="" />
+              <img
+                class="img_back"
+                src="./images/ao_thun_co_lo_den_back.jpg"
+                alt=""
+              />
+            </div>
+            <p><span>230.000vnd</span> <button>Add to cart</button></p>
+          </div>
+          <div class="item">
+            <div class="itemSmall">
+              <img src="./images/ao_thun_co_lo_xanh.jpg" alt="" />
+              <img
+                class="img_back"
+                src="./images/ao_thun_co_lo_xanh_back.jpg"
+                alt=""
+              />
+            </div>
+            <p><span>230.000vnd</span> <button>Add to cart</button></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="item">
+            <div class="itemSmall">
+              <img src="./images/ao_thun_co_tron.jpg" alt="" />
+              <img
+                class="img_back"
+                src="./images/ao_thun_co_tron_back.jpg"
+                alt=""
+              />
+            </div>
+            <p><span>230.000vnd</span> <button>Add to cart</button></p>
+          </div>
+
+          <div class="item">
+            <div class="itemSmall">
+              <img src="./images/ao_thun_co_tron_xanh.jpg" alt="" />
+              <img
+                class="img_back"
+                src="./images/ao_thun_co_tron_xanh_back.jpg"
+                alt=""
+              />
+            </div>
+            <p><span>230.000vnd</span> <button>Add to cart</button></p>
+          </div>
+          <div class="item">
+            <div class="itemSmall">
+              <img src="./images/ao_thun_co_tron_xanh_duong.jpg" alt="" />
+              <img
+                class="img_back"
+                src="./images/ao_thun_co_tron_xanh_duong_back.jpg"
+                alt=""
+              />
+            </div>
+            <p><span>230.000vnd</span> <button>Add to cart</button></p>
+          </div>
+        </div>
+      </div>
+    </section>    
+
+    <!-- ABOUT  https://www.synthesia.io/features/avatars-->
+    <section class="about">
+      <div class="content">
+        <h1>ABOUT</h1>
+        <p>STAFF</p>
+        <div class="row">
+          <div class="item">
+            <img src="images/MR CEO.png" alt="" />
+            <div class="den"></div>
+            <div class="chu">PASSIONATE JULIA</div>
+            <div class="layer1">Julia dances in deep dark</div>
+            <div class="layer2">She loves the smell of the ocean</div>
+            <div class="layer3">And dives into the morning light</div>
+          </div>
+          <div class="item">
+            <img src="images/designer1.png" alt="" />
+            <div class="den"></div>
+            <div class="chu">PASSIONATE JULIA</div>
+            <div class="layer1">Julia dances in deep dark</div>
+            <div class="layer2">She loves the smell of the ocean</div>
+            <div class="layer3">And dives into the morning light</div>
+          </div>
+          <div class="item">
+            <img src="images/fouder.png" alt="" />
+            <div class="den"></div>
+            <div class="chu">PASSIONATE JULIA</div>
+            <div class="layer1">Julia dances in deep dark</div>
+            <div class="layer2">She loves the smell of the ocean</div>
+            <div class="layer3">And dives into the morning light</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="item">
+            <img src="images/MR CEO.png" alt="" />
+            <div class="den"></div>
+            <div class="chu">PASSIONATE JULIA</div>
+            <div class="layer1">Julia dances in deep dark</div>
+            <div class="layer2">She loves the smell of the ocean</div>
+            <div class="layer3">And dives into the morning light</div>
+          </div>
+          <div class="item">
+            <img src="images/designer1.png" alt="" />
+            <div class="den"></div>
+            <div class="chu">PASSIONATE JULIA</div>
+            <div class="layer1">Julia dances in deep dark</div>
+            <div class="layer2">She loves the smell of the ocean</div>
+            <div class="layer3">And dives into the morning light</div>
+          </div>
+          <div class="item">
+            <img src="images/fouder.png" alt="" />
+            <div class="den"></div>
+            <div class="chu">PASSIONATE JULIA</div>
+            <div class="layer1">Julia dances in deep dark</div>
+            <div class="layer2">She loves the smell of the ocean</div>
+            <div class="layer3">And dives into the morning light</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CLIENT SAY  -->
+    <section class="clients">
+      <div class="content">
+        <h1>WHAT CLIENTS SAY</h1>
+        <p>A GREAT PLACE TO SHOW BEST OPINIONS</p>
+        <div class="row">
+          <div class="item">
+            <p>
+              "I would also like to say thank you to all your staff. Rife WP
+              Theme has completely fulfill our expectations."
+            </p>
+            <p><b>DANA BAILEY</b></p>
+            <span>DESIGNER</span>
+          </div>
+          <div class="item">
+            <p>
+              "I don't always clop, but when I do, it's because of Rife. Thank
+              you so much for your help. I use Rife often."
+            </p>
+            <p><b>DANA LARSEN</b></p>
+            <span>DEVELOPER</span>
+          </div>
+          <div class="item">
+            <p>
+              "I would gladly pay over 600 dollars for Rife. Rife was worth a
+              fortune to my company. Rife is the great webtool."
+            </p>
+            <p><b>MARY WELLS</b></p>
+            <span>JOURNALIST</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- NEW INTRO -->
+    <section class="newIntro">
+      <div class="content">
+        <p>NEW SEASON SALE! UP TO 70%</p>
+        <button>GO <i class="fa fa-arrow-right"></i></button>
+      </div>
+    </section>
+    <!-- FOOTER  -->
+    <footer class="footer">
+      <div class="content">
+        <div class="row">
+          <div class="item">
+            <h1>Fashion</h1>
+            <p>
+              At our store, we pride ourselves on offering high quality fashion
+              products, from classic designs to the latest trends. With a
+              sophisticated blend of style and comfort, we are committed to
+              providing you with clothing that not only gives you confidence but
+              also reflects your own self.
+            </p>
+          </div>
+          <div class="item">
+            <p class="titile_footer">Our Links</p>
+            <li>
+              <a href=""><i class="fa fa-angle-right"></i>Home</a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-angle-right"></i>Product</a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-angle-right"></i>About</a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-angle-right"></i>Contact</a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-angle-right"></i>Blog</a>
+            </li>
+          </div>
+          <div class="item item_socials">
+            <p class="titile_footer">Our Socials</p>
+            <li>
+              <a href=""><i class="fab fa-facebook"></i>Facebook</a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-twitter"></i>Twitter</a>
+            </li>
+            <li>
+              <a href=""><i class="fab fa-instagram"></i>Instagram</a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-phone"></i>Phone</a>
+            </li>
+          </div>
+          <div class="item">
+            <p class="titile_footer">Subscribe</p>
+            <form action="">
+              <input type="text" placeholder="Enter your email" />
+              <button type="submit"><i class="fa fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
